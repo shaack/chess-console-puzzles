@@ -1,0 +1,27 @@
+{
+  "name": "chess-console-puzzles",
+  "version": "1.0.0",
+  "description": "A JavaScript chess puzzles app for showing and playing chess puzzles",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaack/chess-console-puzzles.git"
+  },
+  "keywords": [
+    "chess",
+    "puzzles"
+  ],
+  "author": "Stefan Haack (shaack.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaack/chess-console-puzzles/issues"
+  },
+  "homepage": "https://github.com/shaack/chess-console-puzzles#readme",
+  "dependencies": {
+    "chess-console": "^4.8.7",
+    "chess-console-stockfish": "^1.10.3"
+  }
+}
