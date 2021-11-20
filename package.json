@@ -1,0 +1,29 @@
+{
+  "name": "chess-console-puzzles",
+  "version": "1.0.0",
+  "description": "GUI for solving chess puzzles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaack/chess-console-puzzles.git"
+  },
+  "keywords": [
+    "chess",
+    "game",
+    "chess-console",
+    "es6",
+    "javascript"
+  ],
+  "author": "shaack.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaack/chess-console-puzzles/issues"
+  },
+  "homepage": "https://github.com/shaack/chess-console-puzzles#readme",
+  "dependencies": {
+    "chess-console": "^4.8.7"
+  }
+}
