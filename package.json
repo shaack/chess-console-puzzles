@@ -4,7 +4,8 @@
   "description": "GUI for solving chess puzzles",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node postinstall.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/shaack/chess-console-puzzles#readme",
   "dependencies": {
-    "chess-console": "^4.8.7"
+    "chess-console": "^4.8.7",
+    "cm-web-modules": "^1.11.13"
   }
 }
