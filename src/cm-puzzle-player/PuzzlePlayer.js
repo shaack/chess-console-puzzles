@@ -4,7 +4,7 @@
  */
 import {Chess} from "";
 
-export class ChessConsolePuzzles {
+export class PuzzlePlayer {
     constructor(props) {
         this.props = {
             mismoveFirstInPgn: false // true for lichess type
