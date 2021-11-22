@@ -2,7 +2,8 @@
  * Author: Stefan Haack (https://shaack.com)
  * Date: 2021-11-20
  */
-import {Chess} from "";
+
+import {Chess} from "../../lib/cm-chess/Chess.js";
 
 export class PuzzlePlayer {
     constructor(props) {
@@ -18,7 +19,7 @@ export class PuzzlePlayer {
      * @param pgn The pgn containing the puzzle
      * @param index The index of the puzzle in the pgn, if it contains more than one
      */
-    showPuzzle(pgn, index = 0) {
+    loadPuzzle(pgn, index = 0) {
 
     }
 }

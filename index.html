@@ -22,10 +22,11 @@
 <script type="module">
     import {PuzzlePlayer} from "./src/cm-puzzle-player/PuzzlePlayer.js";
 
-    const puzzles = new PuzzlePlayer({
-        mismoveFirstInPgn: true // lichess type
-    })
-    puzzles.showPuzzle("assets/puzzles/puzzle1.pgn")
+    const puzzles = new PuzzlePlayer(document.getElementById("puzzle-player-context"),
+        {
+            mismoveFirstInPgn: true // lichess type
+        })
+    puzzles.loadPuzzle("./assets/puzzles/puzzle1.pgn")
 </script>
 </body>
 </html>
