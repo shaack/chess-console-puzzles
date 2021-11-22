@@ -6,7 +6,7 @@
 import {Chess} from "../../lib/cm-chess/Chess.js";
 
 export class PuzzlePlayer {
-    constructor(props) {
+    constructor(context, props) {
         this.props = {
             mismoveFirstInPgn: false // true for lichess type
         }
