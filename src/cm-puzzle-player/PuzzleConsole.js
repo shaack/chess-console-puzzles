@@ -5,6 +5,8 @@
  */
 import {Component} from "../../lib/cm-web-modules/app/Component.js"
 import {PgnUrlLoader} from "./loaders/PgnUrlLoader.js"
+import {Observe} from "../../lib/cm-web-modules/observe/Observe.js"
+import {Puzzle} from "./Puzzle.js"
 
 export class PuzzleConsole extends Component {
 
@@ -15,16 +17,18 @@ export class PuzzleConsole extends Component {
             loader: new PgnUrlLoader("./assets/puzzles/puzzle1.pgn")
         }, props)
         super(context, props, {
-            puzzle: undefined
+            puzzle: new Puzzle()
+        })
+        Observe.property(this.state, "puzzle", () => {
+            console.log("puzzle changed", this.state.puzzle)
         })
     }
 
     /**
      * Show a chess puzzle
-     * @param pgn The pgn containing the puzzle
-     * @param index The index of the puzzle in the pgn, if it contains more than one
      */
-    loadPuzzle(pgn, index = 0) {
-        this.state.puzzle = this.props.loader.load()
+    loadPuzzle(id = undefined) {
+        this.state.puzzle = this.props.loader.load(id)
     }
+
 }

@@ -21,11 +21,11 @@
         crossOrigin="anonymous"></script>
 <script type="module">
     import {PuzzleConsole} from "./src/cm-puzzle-player/PuzzleConsole.js";
-    const puzzles = new PuzzleConsole(document.getElementById("puzzle-player-context"),
+    const puzzleConsole = new PuzzleConsole(document.getElementById("puzzle-player-context"),
         {
             mismoveFirstInPgn: true // lichess type
         })
-    puzzles.loadPuzzle("./assets/puzzles/puzzle1.pgn")
+    puzzleConsole.loadPuzzle()
 </script>
 </body>
 </html>

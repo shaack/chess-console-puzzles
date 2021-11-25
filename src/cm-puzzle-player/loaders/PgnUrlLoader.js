@@ -8,13 +8,13 @@ import {Puzzle} from "../Puzzle.js"
 
 export class PgnUrlLoader extends Loader {
 
-    constructor(props) {
-        super(props)
+    constructor(source) {
+        super(source)
     }
 
-    load() {
+    load(props) {
         return new Promise((resolve) => {
-            fetch(this.props.pgnUrl).then(function (response) {
+            fetch(this.source).then(function (response) {
                 response.text().then(function (pgn) {
                     resolve(new Puzzle(pgn))
                 })

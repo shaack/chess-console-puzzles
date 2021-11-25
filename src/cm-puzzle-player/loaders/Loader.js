@@ -5,8 +5,8 @@
  */
 export class Loader {
 
-    constructor(props) {
-        this.props = props
+    constructor(source) {
+        this.source = source
     }
 
     load(source, props) {
