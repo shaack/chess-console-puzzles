@@ -1,8 +1,8 @@
 /**
  * Author: Stefan Haack (https://shaack.com)
- * Date: 2021-11-24
+ * Date: 2021-11-25
  */
 
-export class PgnLoader {
+export function loadByCVS(csv) {
 
 }
