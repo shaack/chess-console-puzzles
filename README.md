@@ -1,4 +1,4 @@
-# chess-console-puzzles
+# cm-puzzle-console
 
 A JavaScript chess puzzles app for showing and playing chess puzzles
 
@@ -8,7 +8,7 @@ A JavaScript chess puzzles app for showing and playing chess puzzles
 
 ## Model
 
-- PuzzlePlayer
-  - PuzzlePlayerState state
+- PuzzleConsole
+  - PuzzleConsoleState state
   - [] puzzles
   - 

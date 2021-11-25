@@ -5,9 +5,8 @@
  */
 import {Chess} from "../../lib/cm-chess/Chess.js"
 
-export class Puzzle {
-    constructor(pgn) {
+export class PuzzleConsoleState {
+    constructor() {
         this.chess = new Chess()
-        this.chess.loadPgn(pgn)
     }
 }

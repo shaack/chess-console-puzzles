@@ -1,5 +1,5 @@
 {
-  "name": "cm-puzzle-player",
+  "name": "cm-puzzle-console",
   "version": "1.0.0",
   "description": "GUI for solving chess puzzles",
   "main": "index.js",
