@@ -21,13 +21,15 @@ export class PuzzleConsole extends Component {
             puzzle: new Puzzle()
         })
         Observe.property(this.state, "puzzle", () => {
-            console.log("puzzle changed", this.state.puzzle)
+            // console.log("puzzle changed", this.state.puzzle)
             this.redraw()
         })
     }
 
     redraw() {
-        this.chessboard = new Chessboard(this.context)
+        this.chessboard = new Chessboard(this.context, {
+            position: this.state.puzzle.chess.fen()
+        })
     }
 
     /**
