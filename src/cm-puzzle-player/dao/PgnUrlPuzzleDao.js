@@ -24,9 +24,9 @@ export class PgnUrlPuzzleDao extends PuzzleDao {
     }
 
     getPuzzle(id) {
-        console.log("getPuzzle", id)
         return new Promise((resolve) => {
             this.initialisation.then(() => {
+                console.log(this.puzzleList.pgns[id])
                 resolve(new Puzzle(this.puzzleList.pgns[id]))
             })
         })

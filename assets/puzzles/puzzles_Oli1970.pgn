@@ -26,7 +26,7 @@
 [SetUp "1"]
 [FEN "r3r1k1/pp1qppb1/2p3p1/7p/3PpP2/BPP1P1Pb/P3Q1BP/3R1RK1 b - - 4 17"]
 
-17. ... Bg4 18. Qc2 Bxd1 19. Rxd1 0-1
+17... Bg4 18. Qc2 Bxd1 19. Rxd1 0-1
 
 [Event "NED Ch Internet 2016"]
 [Site "PlayChess INT"]
@@ -71,7 +71,7 @@
 [SetUp "1"]
 [FEN "2r2bk1/pp3ppp/2r5/1q2P3/3P1P2/PP1R2PP/1B5K/2RQ4 b - - 2 27"]
 
-27. ... Rxc1 28. Bxc1 Rxc1 29. Qf3 0-1
+27... Rxc1 28. Bxc1 Rxc1 29. Qf3 0-1
 
 [Event "Politiken Larsen Blitz b3"]
 [Site "Copenhagen DEN"]
@@ -101,7 +101,7 @@
 [SetUp "1"]
 [FEN "r4r2/p5k1/2p3p1/2Rqpb2/4N2R/1P2P3/P2P1P2/3QK3 b - - 0 22"]
 
-22. ... Qd8 23. Rh2 Bxe4 24. Qa1 0-1
+22... Qd8 23. Rh2 Bxe4 24. Qa1 0-1
 
 [Event "Palma de Mallorca"]
 [Site "Palma de Majorca ESP"]
@@ -127,7 +127,7 @@
 [SetUp "1"]
 [FEN "rnbqk1nr/ppp2ppp/3b4/8/3P4/8/PPP1P1PP/RNBQKBNR b KQkq - 0 4"]
 
-4. ... Qh4+ 5. g3 Bxg3+ 6. hxg3 Qxh1 7. Kf2 0-1
+4... Qh4+ 5. g3 Bxg3+ 6. hxg3 Qxh1 7. Kf2 0-1
 
 [Event "Liverpool m"]
 [Site "Liverpool"]
@@ -140,7 +140,7 @@
 [SetUp "1"]
 [FEN "b4rk1/5pbp/1p2pnp1/QP1pn3/2pP1P2/2P1PN2/1BB3PP/5RK1 b - - 0 22"]
 
-22. ... Nxf3+ 23. gxf3 bxa5 24. Ra1 0-1
+22... Nxf3+ 23. gxf3 bxa5 24. Ra1 0-1
 
 [Event "London"]
 [Site "London ENG"]
@@ -168,7 +168,7 @@
 [SetUp "1"]
 [FEN "3qr2r/1b4k1/pn1pp1p1/3n1BNp/1p1P3P/5RN1/PPP2PP1/1KQ1R3 b - - 0 24"]
 
-24. ... exf5 25. Nxf5+ gxf5 26. Rxf5 0-1
+24... exf5 25. Nxf5+ gxf5 26. Rxf5 0-1
 
 [Event "41. Olympiad Open 2014"]
 [Site "Tromso NOR"]
@@ -198,7 +198,7 @@
 [SetUp "1"]
 [FEN "3rr1k1/1q4bp/p3p1p1/Q1B1p3/2P1N3/6PP/1Pn2PK1/3RR3 b - - 2 25"]
 
-25. ... Rxd1 26. Rxd1 Qxe4+ 27. Kg1 0-1
+25... Rxd1 26. Rxd1 Qxe4+ 27. Kg1 0-1
 
 [Event "12. American Continental"]
 [Site "Medellin COL"]
@@ -257,7 +257,7 @@
 [SetUp "1"]
 [FEN "1rbq1r1k/ppn3bp/3p2P1/2p1p3/2Pn3N/3PN1PB/PP3P1P/1RBQR1K1 b - - 0 17"]
 
-17. ... Bxh3 18. Qh5 h6 19. Nd5 0-1
+17... Bxh3 18. Qh5 h6 19. Nd5 0-1
 
 [Event "Tallinn"]
 [Site "Tallinn EST"]
@@ -270,7 +270,7 @@
 [SetUp "1"]
 [FEN "r1bq1rk1/ppp1npbp/3p2p1/4p3/3nP3/3PBNP1/PPPQNPBP/R3K2R b KQ - 8 9"]
 
-9. ... Bh3 10. O-O Nxf3+ 11. Bxf3 Bxf1 12. Rxf1 0-1
+9... Bh3 10. O-O Nxf3+ 11. Bxf3 Bxf1 12. Rxf1 0-1
 
 [Event "GCT Blitz Paris 2018"]
 [Site "Paris FRA"]
@@ -300,7 +300,7 @@
 [SetUp "1"]
 [FEN "1r3rk1/ppp2pbp/3p2p1/3Nn2q/2P2P2/1P2R1PP/PB1Q4/R5K1 b - - 0 18"]
 
-18. ... Nf3+ 19. Rxf3 Qxf3 20. Ne7+ Kh8 21. Bxg7+ Kxg7 22. Kh2 0-1
+18... Nf3+ 19. Rxf3 Qxf3 20. Ne7+ Kh8 21. Bxg7+ Kxg7 22. Kh2 0-1
 
 [Event "London Classic Superrapid"]
 [Site "London ENG"]
@@ -315,7 +315,7 @@
 [SetUp "1"]
 [FEN "3rr1k1/pp3pb1/nqb2npp/2p5/8/1PN1PNP1/PBQ2PBP/R2R2K1 b - - 4 18"]
 
-18. ... Nb4 19. Qe2 Ne4 20. Nxe4 Bb5 21. Qe1 Nc2 22. Rxd8 Nxe1 23. Rxe8+ Bxe8 24. Nxe1 Bxb2 25. Rd1 0-1
+18... Nb4 19. Qe2 Ne4 20. Nxe4 Bb5 21. Qe1 Nc2 22. Rxd8 Nxe1 23. Rxe8+ Bxe8 24. Nxe1 Bxb2 25. Rd1 0-1
 
 [Event "World Blitz 2015"]
 [Site "Berlin GER"]
@@ -358,7 +358,7 @@
 [SetUp "1"]
 [FEN "rnbqnrk1/pp3pbp/2pp2p1/4p3/2P5/1P1P1NP1/PB1NPPBP/R2Q1RK1 b - - 2 9"]
 
-9. ... e4 10. Bxg7 exf3 11. Bxf8 fxg2 12. Kxg2 Kxf8 13. Nf3 0-1
+9... e4 10. Bxg7 exf3 11. Bxf8 fxg2 12. Kxg2 Kxf8 13. Nf3 0-1
 
 [Event "33. ECC Open 2017"]
 [Site "Antalya TUR"]
@@ -373,7 +373,7 @@
 [SetUp "1"]
 [FEN "3r1rk1/p4ppp/1p2p3/q2n4/NnpP1P2/PP4P1/1Q3PBP/2RR2K1 b - - 0 20"]
 
-20. ... Nd3 21. Rxd3 cxd3 22. Be4 0-1
+20... Nd3 21. Rxd3 cxd3 22. Be4 0-1
 
 [Event "PRO League Group Stage"]
 [Site "chess.com INT"]
@@ -433,7 +433,7 @@
 [SetUp "1"]
 [FEN "r2qr1k1/pp4pp/2nb1p2/1N1pN2b/8/3PB1PP/PP3PB1/2RQ1RK1 b - - 0 16"]
 
-16. ... Bxd1 17. Bxd5+ Kf8 18. Nxc6 0-1
+16... Bxd1 17. Bxd5+ Kf8 18. Nxc6 0-1
 
 [Event "67. Moscow Blitz 2013"]
 [Site "Moscow RUS"]
@@ -448,7 +448,7 @@
 [SetUp "1"]
 [FEN "r3k2r/pp1nnppp/4b3/3pb1q1/8/BPN1NBP1/P2PP2P/R2Q1RK1 b kq - 2 15"]
 
-15. ... Bxc3 16. dxc3 Qxe3+ 17. Rf2 0-1
+15... Bxc3 16. dxc3 Qxe3+ 17. Rf2 0-1
 
 [Event "EUCup final 14th"]
 [Site "Belgrade SRB"]
@@ -463,7 +463,7 @@
 [SetUp "1"]
 [FEN "5r2/pp1kq1p1/2pbp3/3n2P1/1P2Q1B1/8/P2PP2P/2B1K2R b K - 4 23"]
 
-23. ... Rf4 24. Qxe6+ Qxe6 25. Bxe6+ Kxe6 26. h4 0-1
+23... Rf4 24. Qxe6+ Qxe6 25. Bxe6+ Kxe6 26. h4 0-1
 
 [Event "18. Dubai Open 2016"]
 [Site "Dubai UAE"]
@@ -478,7 +478,7 @@
 [SetUp "1"]
 [FEN "2b1q3/2p2p1k/6pp/1P3B2/Q1Nb4/3P2P1/nP3P1P/3R2K1 b - - 0 27"]
 
-27. ... Qe2 28. Rf1 Bxf5 29. Nd2 0-1
+27... Qe2 28. Rf1 Bxf5 29. Nd2 0-1
 
 [Event "URS-ch40"]
 [Site "Baku AZE"]
@@ -508,7 +508,7 @@
 [SetUp "1"]
 [FEN "4r1k1/1p3ppb/3q3p/Q2p1P2/Pb1n4/BP1P1N2/2P3BP/5R1K b - - 1 28"]
 
-28. ... Nxf3 29. Bxf3 Bxa3 30. Qxd5 0-1
+28... Nxf3 29. Bxf3 Bxa3 30. Qxd5 0-1
 
 [Event "EUCup sf"]
 [Site "Breda NED"]
@@ -523,7 +523,7 @@
 [SetUp "1"]
 [FEN "r2r1k2/1p3pp1/1pp1q3/4p2R/1PP1PbP1/P4Q2/5PK1/R1B5 b - - 10 26"]
 
-26. ... Rd3 27. Bxf4 Rxf3 28. Kxf3 0-1
+26... Rd3 27. Bxf4 Rxf3 28. Kxf3 0-1
 
 [Event "Dortmund"]
 [Site "Dortmund GER"]
@@ -624,7 +624,7 @@
 [SetUp "1"]
 [FEN "3rbr1k/pp4p1/1bn1pp1p/1Nq5/2B2PQ1/PPB1P3/6PP/3R1R1K b - - 0 27"]
 
-27. ... Bh5 28. Rxd8 Bxg4 29. Rxf8+ Qxf8 30. Re1 0-1
+27... Bh5 28. Rxd8 Bxg4 29. Rxf8+ Qxf8 30. Re1 0-1
 
 [Event "CHN Ch 2015"]
 [Site "Xinghua CHN"]
@@ -654,7 +654,7 @@
 [SetUp "1"]
 [FEN "3q2k1/pp1r2b1/2p1r1p1/2P1ppnp/8/3PP1Q1/P4PPP/B1R1RBK1 b - - 0 28"]
 
-28. ... h4 29. Qxg5 Qxg5 30. d4 0-1
+28... h4 29. Qxg5 Qxg5 30. d4 0-1
 
 [Event "Kettler Cup rap"]
 [Site "Ceska Trebova"]
@@ -669,7 +669,7 @@
 [SetUp "1"]
 [FEN "r4Nk1/pbp3pp/1p1p1n2/4n3/2P1P3/1P2b1qP/P3NPB1/R2Q1RK1 b - - 1 17"]
 
-17. ... Nf3+ 18. Kh1 Qh2# 0-1
+17... Nf3+ 18. Kh1 Qh2# 0-1
 
 [Event "TCh-RUS Premier"]
 [Site "Olginka RUS"]
@@ -684,7 +684,7 @@
 [SetUp "1"]
 [FEN "r1b2rk1/pp2qppp/8/4n3/2B1p3/1P2P1P1/PBQP3P/R4RK1 b - - 2 18"]
 
-18. ... Nf3+ 19. Rxf3 exf3 20. Bd3 0-1
+18... Nf3+ 19. Rxf3 exf3 20. Bd3 0-1
 
 [Event "European Rapid 2015"]
 [Site "Minsk BLR"]
@@ -699,7 +699,7 @@
 [SetUp "1"]
 [FEN "rbbq1rk1/pp3ppp/5n2/1N1p4/8/1P1BPQ2/PB3PPP/R4RK1 b - - 0 13"]
 
-13. ... Bg4 14. Bxf6 Qd7 15. Qxg4 Qxg4 16. Bb2 0-1
+13... Bg4 14. Bxf6 Qd7 15. Qxg4 Qxg4 16. Bb2 0-1
 
 [Event "FRG Ch International"]
 [Site "Mannheim GER"]
@@ -714,7 +714,7 @@
 [SetUp "1"]
 [FEN "3r2k1/1p3ppp/1Bp2n2/4N3/1b2PP2/1bNn2P1/1P4BP/2R3K1 b - - 4 24"]
 
-24. ... Bc5+ 25. Bxc5 Nxc1 26. g4 0-1
+24... Bc5+ 25. Bxc5 Nxc1 26. g4 0-1
 
 [Event "Budapest Ch"]
 [Site "Budapest HUN"]
@@ -755,7 +755,7 @@
 [SetUp "1"]
 [FEN "q1r3k1/1b2bppp/4p3/1Nn3B1/6n1/5NP1/1PQ1PPBP/2R3K1 b - - 3 18"]
 
-18. ... Ne4 19. Qxc8+ Bxc8 20. Bxe7 0-1
+18... Ne4 19. Qxc8+ Bxc8 20. Bxe7 0-1
 
 [Event "ESP Ch Rapid 2013"]
 [Site "Linares ESP"]
@@ -770,7 +770,7 @@
 [SetUp "1"]
 [FEN "5rk1/pb1n3p/1p1r2p1/2pPqp2/2P1p1P1/PP2P1Q1/1R4BP/3R1NK1 b - - 6 26"]
 
-26. ... f4 27. exf4 Qxb2 28. g5 0-1
+26... f4 27. exf4 Qxb2 28. g5 0-1
 
 [Event "St.Petersburg Blitz 2014"]
 [Site "St Petersburg RUS"]
@@ -830,7 +830,7 @@
 [SetUp "1"]
 [FEN "rnbqr1k1/pp3ppp/5n2/2p5/2PpPR1N/1P1P2P1/PB4BP/R2Q2K1 b - - 0 15"]
 
-15. ... g5 16. Rf5 gxh4 17. Rxc5 0-1
+15... g5 16. Rf5 gxh4 17. Rxc5 0-1
 
 [Event "Moscow Ch"]
 [Site "Moscow RUS"]
@@ -858,7 +858,7 @@
 [SetUp "1"]
 [FEN "r2q1rk1/pbpnbppp/1p6/4N3/2p5/1P2P1P1/PB3PBP/R2Q1RK1 b - - 1 13"]
 
-13. ... Bxg2 14. Nxd7 Bxf1 15. Qg4 0-1
+13... Bxg2 14. Nxd7 Bxf1 15. Qg4 0-1
 
 [Event "World Blitz"]
 [Site "Moscow RUS"]
@@ -888,7 +888,7 @@
 [SetUp "1"]
 [FEN "r1q1k2r/p3ppb1/1p1p1n1p/3Nn3/2PN2pQ/1P4P1/P3PPKP/R1BR4 b kq - 0 16"]
 
-16. ... Nxd5 17. cxd5 Ng6 18. Qh5 Bxd4 19. Rxd4 Qc3 20. Rc4 Qxa1 21. Qxg4 0-1
+16... Nxd5 17. cxd5 Ng6 18. Qh5 Bxd4 19. Rxd4 Qc3 20. Rc4 Qxa1 21. Qxg4 0-1
 
 [Event "Baku FIDE Grand Prix 2014"]
 [Site "Baku AZE"]
@@ -918,7 +918,7 @@
 [SetUp "1"]
 [FEN "6k1/1b1n1p1p/1p2N1p1/2rP4/2p5/6P1/P1R2PBP/6K1 b - - 8 24"]
 
-24. ... Rb5 25. Rc1 fxe6 26. dxe6 Nc5 27. Bxb7 Nxb7 28. Rxc4 0-1
+24... Rb5 25. Rc1 fxe6 26. dxe6 Nc5 27. Bxb7 Nxb7 28. Rxc4 0-1
 
 [Event "4. All China Games Rapid"]
 [Site "Hefei CHN"]
@@ -948,7 +948,7 @@
 [SetUp "1"]
 [FEN "2rq1rk1/pb2pp1p/3p2p1/1P6/1n2n3/1PB1QNP1/P3PPBP/2RR2K1 b - - 0 16"]
 
-16. ... Nxa2 17. Bb2 Nxc1 18. Nd4 0-1
+16... Nxa2 17. Bb2 Nxc1 18. Nd4 0-1
 
 [Event "SPICE Cup Open 2014"]
 [Site "Saint Louis USA"]
@@ -1023,7 +1023,7 @@
 [SetUp "1"]
 [FEN "2r3k1/p4p1p/1p2pQ2/3q4/3NR1P1/5P1b/PP5P/6K1 b - - 0 27"]
 
-27. ... Qxe4 28. fxe4 Rc1+ 29. Kf2 Rf1+ 30. Kg3 Rxf6 31. a4 0-1
+27... Qxe4 28. fxe4 Rc1+ 29. Kf2 Rf1+ 30. Kg3 Rxf6 31. a4 0-1
 
 [Event "FRG Cup"]
 [Site "Koln"]
@@ -1068,7 +1068,7 @@
 [SetUp "1"]
 [FEN "5rk1/pp5p/2p2r2/2QB2pq/2n2P2/2P3P1/P3P2P/R3R1K1 b - - 0 19"]
 
-19. ... cxd5 20. Qxd5+ Qf7 21. Qxg5+ 0-1
+19... cxd5 20. Qxd5+ Qf7 21. Qxg5+ 0-1
 
 [Event "1. WMSG Blitz Ind"]
 [Site "Beijing CHN"]
@@ -1083,7 +1083,7 @@
 [SetUp "1"]
 [FEN "r2qk2r/ppp2ppp/1nn2b2/4p3/4P1b1/1P1P1NPP/P4PB1/RNBQ1RK1 b kq - 0 10"]
 
-10. ... Bxf3 11. Bxf3 Qd4 12. Be3 Qxa1 13. Qd2 Nd4 14. Bh5 0-1
+10... Bxf3 11. Bxf3 Qd4 12. Be3 Qxa1 13. Qd2 Nd4 14. Bh5 0-1
 
 [Event "Hoogovens"]
 [Site "Wijk aan Zee NED"]
@@ -1098,7 +1098,7 @@
 [SetUp "1"]
 [FEN "r2qk2r/ppp3b1/3p2pn/2nPp3/2P1p1P1/2N1Q1Pp/PP2N2P/R1B1KB1R b KQkq - 0 14"]
 
-14. ... Nxg4 15. Qxc5 dxc5 16. Nxe4 0-1
+14... Nxg4 15. Qxc5 dxc5 16. Nxe4 0-1
 
 [Event "NK Rapid"]
 [Site "Vlaardingen NED"]
@@ -1113,7 +1113,7 @@
 [SetUp "1"]
 [FEN "6k1/p4ppp/Qp6/2p5/2P5/3q2P1/PB2r1BP/2R3K1 b - - 0 27"]
 
-27. ... Qe3+ 28. Kh1 Re1+ 29. Bf1 Qf3+ 30. Kg1 Qxf1# 0-1
+27... Qe3+ 28. Kh1 Re1+ 29. Bf1 Qf3+ 30. Kg1 Qxf1# 0-1
 
 [Event "St.Petersburg Rapid 2014"]
 [Site "St Petersburg RUS"]
@@ -1128,7 +1128,7 @@
 [SetUp "1"]
 [FEN "r5k1/7p/1b4p1/1P1R1p2/1rn2P2/4pKP1/1P2P2P/NRB5 b - - 3 30"]
 
-30. ... Na3 31. Bxe3 Nxb1 32. Bxb6 Rxa1 33. g4 0-1
+30... Na3 31. Bxe3 Nxb1 32. Bxb6 Rxa1 33. g4 0-1
 
 [Event "Las Palmas"]
 [Site "Las Palmas ESP"]
@@ -1143,7 +1143,7 @@
 [SetUp "1"]
 [FEN "r5k1/pp1qn1pp/6n1/3N1b2/3Pp3/2N1P1P1/PP1Q2BP/5RK1 b - - 0 17"]
 
-17. ... Nxd5 18. Rxf5 Nxc3 19. Rc5 0-1
+17... Nxd5 18. Rxf5 Nxc3 19. Rc5 0-1
 
 [Event "San Fernando Open"]
 [Site "San Fernando"]
@@ -1170,7 +1170,7 @@
 [SetUp "1"]
 [FEN "1rbr2k1/1pp1npp1/pbQ5/4p3/1P2n2p/P2BPPP1/1B1P1N1P/3R1RK1 b - - 0 18"]
 
-18. ... Nxf2 19. Bh7+ Kxh7 20. Qc4 Nxd1 21. Qxh4+ 0-1
+18... Nxf2 19. Bh7+ Kxh7 20. Qc4 Nxd1 21. Qxh4+ 0-1
 
 [Event "URS-ch03"]
 [Site "Moscow RUS"]
@@ -1183,7 +1183,7 @@
 [SetUp "1"]
 [FEN "r4rk1/pb3p1p/1p1p2p1/4bn2/1PP4q/P1N3P1/1B1QBP1P/R3R1K1 b - - 0 16"]
 
-16. ... Nxg3 17. fxg3 Bd4+ 18. Qxd4 Qxd4+ 19. Kf1 0-1
+16... Nxg3 17. fxg3 Bd4+ 18. Qxd4 Qxd4+ 19. Kf1 0-1
 
 [Event "London WFW"]
 [Site "London ENG"]
@@ -1198,7 +1198,7 @@
 [SetUp "1"]
 [FEN "r1bqk1nr/1pp3pp/3p4/p2N1p2/1PPPp3/2QnP1P1/1P2KPBP/R1B3NR b kq - 2 12"]
 
-12. ... axb4 13. Nxb4 Rxa1 14. Nxd3 exd3+ 15. Kxd3 0-1
+12... axb4 13. Nxb4 Rxa1 14. Nxd3 exd3+ 15. Kxd3 0-1
 
 [Event "Hania Open"]
 [Site "Hania"]
@@ -1212,7 +1212,7 @@
 [SetUp "1"]
 [FEN "7r/pp2nk2/n1pQbbp1/q3pp2/2P5/BPN1P1P1/P3NPB1/2K4R b - - 1 18"]
 
-18. ... Nc8 19. Rh7+ Bg7 20. Rxg7+ Kxg7 21. Qxe6 Qxa3+ 22. Kd1 0-1
+18... Nc8 19. Rh7+ Bg7 20. Rxg7+ Kxg7 21. Qxe6 Qxa3+ 22. Kd1 0-1
 
 [Event "Riga Ch"]
 [Site "Riga LAT"]
@@ -1225,7 +1225,7 @@
 [SetUp "1"]
 [FEN "r4r1k/pp1bb1pp/1qpp1n2/3P2N1/2P3p1/1P2P1P1/PBQ1N2P/R4RK1 b - - 7 17"]
 
-17. ... Qxe3+ 18. Kh1 Qxg5 19. Rae1 0-1
+17... Qxe3+ 18. Kh1 Qxg5 19. Rae1 0-1
 
 [Event "CSR Ch"]
 [Site "Prague CZE"]
@@ -1267,7 +1267,7 @@
 [SetUp "1"]
 [FEN "1q4k1/p3r1pp/1p2np2/1P2p3/2P5/3R1NP1/P1Q1PP1P/6K1 b - - 1 26"]
 
-26. ... e4 27. Rd5 exf3 28. exf3 0-1
+26... e4 27. Rd5 exf3 28. exf3 0-1
 
 [Event "EST Ch m"]
 [Site "Parnu EST"]
@@ -1308,7 +1308,7 @@
 [SetUp "1"]
 [FEN "2r3k1/pp2bppp/1q3n2/8/6b1/PrN3P1/1PQ2PBP/1RB2RK1 b - - 2 20"]
 
-20. ... Rcxc3 21. bxc3 Rxb1 22. a4 0-1
+20... Rcxc3 21. bxc3 Rxb1 22. a4 0-1
 
 [Event "Oviedo rapid45"]
 [Site "Oviedo ESP"]
@@ -1323,7 +1323,7 @@
 [SetUp "1"]
 [FEN "r1b1qrk1/ppp3b1/3p3p/4P2n/1PP5/2BP1N2/P4PBP/1R1Q1RK1 b - - 0 18"]
 
-18. ... Nf4 19. Ne1 Nh3+ 20. Kh1 Nxf2+ 21. Rxf2 Rxf2 22. Bd4 0-1
+18... Nf4 19. Ne1 Nh3+ 20. Kh1 Nxf2+ 21. Rxf2 Rxf2 22. Bd4 0-1
 
 [Event "Roquebrune"]
 [Site "Roquebrune"]
@@ -1338,7 +1338,7 @@
 [SetUp "1"]
 [FEN "r6k/p1pq2pp/1p1pR1b1/3P4/2P5/1PQ3P1/PB2r2P/R5K1 b - - 1 23"]
 
-23. ... Be4 24. Re1 Rg2+ 25. Kh1 Rxg3+ 26. R6xe4 Rxc3 27. Bxc3 Rg8 28. Rg1 0-1
+23... Be4 24. Re1 Rg2+ 25. Kh1 Rxg3+ 26. R6xe4 Rxc3 27. Bxc3 Rg8 28. Rg1 0-1
 
 [Event "BIH Team Ch"]
 [Site "Bihac BIH"]
@@ -1353,7 +1353,7 @@
 [SetUp "1"]
 [FEN "3rr1k1/pp3pb1/2P3pp/8/2P5/P2RB3/1q3PPP/3Q1K1R b - - 0 20"]
 
-20. ... Rxd3 21. Qxd3 Qa1+ 22. Ke2 Qxh1 23. cxb7 0-1
+20... Rxd3 21. Qxd3 Qa1+ 22. Ke2 Qxh1 23. cxb7 0-1
 
 [Event "Antwerp Open"]
 [Site "Antwerp BEL"]
@@ -1409,7 +1409,7 @@
 [SetUp "1"]
 [FEN "1r3rk1/Rp4b1/3Rb2p/1P2p1pq/2P3n1/5NP1/1B2PPB1/2Q3K1 b - - 0 25"]
 
-25. ... e4 26. Rxb7 Rxb7 27. Bxg7 0-1
+25... e4 26. Rxb7 Rxb7 27. Bxg7 0-1
 
 [Event "FIDE WCh KO"]
 [Site "Tripoli LBA"]
@@ -1470,7 +1470,7 @@
 [SetUp "1"]
 [FEN "3r2k1/1pp4p/p1n1q1p1/2Q5/1P2B3/P3P1Pb/3N1R1P/6K1 b - - 1 27"]
 
-27. ... Qxe4 28. Rf8+ Rxf8 29. Qxf8+ Kxf8 30. Nxe4 0-1
+27... Qxe4 28. Rf8+ Rxf8 29. Qxf8+ Kxf8 30. Nxe4 0-1
 
 [Event "Hastings8485"]
 [Site "Hastings ENG"]
@@ -1512,7 +1512,7 @@
 [SetUp "1"]
 [FEN "r1b2rk1/ppp1qp1p/2p2p2/8/2PQ4/2P1P3/P4PPP/R3KB1R b KQ - 0 11"]
 
-11. ... Rd8 12. Qxd8+ Qxd8 13. Be2 0-1
+11... Rd8 12. Qxd8+ Qxd8 13. Be2 0-1
 
 [Event "Mar del Plata"]
 [Site "Mar del Plata ARG"]
@@ -1525,7 +1525,7 @@
 [SetUp "1"]
 [FEN "4r1k1/1Rpq1pp1/7p/8/3P4/5QP1/P4P1P/4rRK1 b - - 6 25"]
 
-25. ... Rxf1+ 26. Kxf1 Qh3+ 27. Qg2 Re1+ 28. Kxe1 Qxg2 29. Rxc7 0-1
+25... Rxf1+ 26. Kxf1 Qh3+ 27. Qg2 Re1+ 28. Kxe1 Qxg2 29. Rxc7 0-1
 
 [Event "NED Ch Internet 2016"]
 [Site "PlayChess INT"]
@@ -1540,7 +1540,7 @@
 [SetUp "1"]
 [FEN "6k1/2pb1ppp/2nP4/1R4N1/2Pp1P1K/3nr3/Q5BP/2r5 b - - 3 26"]
 
-26. ... h6 27. Qa8+ Re8 28. Qxe8+ Bxe8 29. dxc7 0-1
+26... h6 27. Qa8+ Re8 28. Qxe8+ Bxe8 29. dxc7 0-1
 
 [Event "Yerevan zt"]
 [Site "Erevan ARM"]
@@ -1555,7 +1555,7 @@
 [SetUp "1"]
 [FEN "3r1rk1/6pp/5p2/1p2q3/2b5/P1Q2BP1/4PP1P/R1R3K1 b - - 5 24"]
 
-24. ... Rd1+ 25. Rxd1 Qxc3 26. a4 0-1
+24... Rd1+ 25. Rxd1 Qxc3 26. a4 0-1
 
 [Event "8. Dos Hermanas Internet"]
 [Site "Internet Chess Club INT"]
@@ -1570,7 +1570,7 @@
 [SetUp "1"]
 [FEN "r1bqkb1r/ppp3pp/2n5/8/3P1P2/2P1pP2/P3P1BP/R1BQK1NR b KQkq - 0 11"]
 
-11. ... Qh4+ 12. Kf1 Qf2# 0-1
+11... Qh4+ 12. Kf1 Qf2# 0-1
 
 [Event "Korinthos Open"]
 [Site "Korinthos GRE"]
@@ -1600,7 +1600,7 @@
 [SetUp "1"]
 [FEN "r5k1/p1pp1pp1/1p5p/7q/8/1PPQBpPP/P3r3/3R1BK1 b - - 3 26"]
 
-26. ... Rxe3 27. Qxe3 f2+ 28. Kg2 Qxd1 29. Qf3 Qxf3+ 30. Kxf3 0-1
+26... Rxe3 27. Qxe3 f2+ 28. Kg2 Qxd1 29. Qf3 Qxf3+ 30. Kxf3 0-1
 
 [Event "Manhattan CC Ch 5556"]
 [Site "New York, NY USA"]
@@ -1613,7 +1613,7 @@
 [SetUp "1"]
 [FEN "r3qrk1/pp2bppp/1n6/1Np5/5Bb1/1Q4P1/PP2PPBP/2RR2K1 b - - 3 17"]
 
-17. ... Be6 18. Nc7 Bxb3 19. axb3 0-1
+17... Be6 18. Nc7 Bxb3 19. axb3 0-1
 
 [Event "HUN Ch"]
 [Site "Budapest HUN"]
@@ -1626,7 +1626,7 @@
 [SetUp "1"]
 [FEN "r2q1rk1/4npbp/Ppp1b1p1/4p3/3n4/Q1NP1NP1/P3PPBP/R1BR2K1 b - - 0 16"]
 
-16. ... Nc2 17. Qb2 Nxa1 18. Bd2 0-1
+16... Nc2 17. Qb2 Nxa1 18. Bd2 0-1
 
 [Event "HUN Ch"]
 [Site "Budapest HUN"]
@@ -1639,7 +1639,7 @@
 [SetUp "1"]
 [FEN "3q1rk1/r3npbp/Ppp1b1p1/4p3/3n4/Q1NP1NP1/P2BPPBP/R2R2K1 b - - 2 17"]
 
-17. ... Nc2 18. Qb2 Nxa1 19. Rxa1 0-1
+17... Nc2 18. Qb2 Nxa1 19. Rxa1 0-1
 
 [Event "HUN Ch"]
 [Site "Budapest HUN"]
@@ -1652,7 +1652,7 @@
 [SetUp "1"]
 [FEN "2r3k1/4qpb1/1pp3pp/8/r2pN1b1/3P2PP/1Q2PPB1/2RR2K1 b - - 0 25"]
 
-25. ... Rb4 26. Qxb4 Qxb4 27. hxg4 0-1
+25... Rb4 26. Qxb4 Qxb4 27. hxg4 0-1
 
 [Event "BCF Ch U18 "]
 [Site "Rhyl"]
@@ -1665,7 +1665,7 @@
 [SetUp "1"]
 [FEN "r3k2r/1p4p1/1Rn2p2/p7/P3q3/1Q3NP1/1P2P1KP/2R5 b kq - 0 23"]
 
-23. ... Qxe2+ 24. Kg1 Nd4 25. Re6+ Qxe6 26. Nxd4 Qxb3 27. Nxb3 0-1
+23... Qxe2+ 24. Kg1 Nd4 25. Re6+ Qxe6 26. Nxd4 Qxb3 27. Nxb3 0-1
 
 [Event "7. Tal Mem Blitz"]
 [Site "Moscow RUS"]
@@ -1755,7 +1755,7 @@
 [SetUp "1"]
 [FEN "3r2k1/pp2n1pp/4bp2/2P5/q2N4/2B3P1/P1Q1PP1P/R5K1 b - - 5 23"]
 
-23. ... Rxd4 24. Qxa4 Rxa4 25. c6 0-1
+23... Rxd4 24. Qxa4 Rxa4 25. c6 0-1
 
 [Event "URS Ch sf"]
 [Site "Moscow RUS"]
@@ -1781,7 +1781,7 @@
 [SetUp "1"]
 [FEN "r2qk2r/pp3ppp/2n1b3/2pnp1B1/8/2NP2P1/PP2PPBP/R2Q1RK1 b kq - 0 10"]
 
-10. ... Nxc3 11. Bxd8 Nxd1 12. Bg5 0-1
+10... Nxc3 11. Bxd8 Nxd1 12. Bg5 0-1
 
 [Event "Hoogovens"]
 [Site "Wijk aan Zee NED"]
@@ -1811,7 +1811,7 @@
 [SetUp "1"]
 [FEN "2k3r1/1b6/4p3/pPRq1p2/p3RQ2/8/5PPP/6K1 b - - 0 29"]
 
-29. ... Qxc5 30. Rc4 Rxg2+ 31. Kf1 Rxf2+ 32. Kg1 0-1
+29... Qxc5 30. Rc4 Rxg2+ 31. Kf1 Rxf2+ 32. Kg1 0-1
 
 [Event "JUG-URS"]
 [Site "Rijeka"]
@@ -1839,7 +1839,7 @@
 [SetUp "1"]
 [FEN "rnb1kb1r/1pqp1ppp/p4n2/4p1B1/3N4/2N3P1/PP2PPBP/R2Q1RK1 b kq - 1 10"]
 
-10. ... exd4 11. Bxf6 dxc3 12. Bxc3 0-1
+10... exd4 11. Bxf6 dxc3 12. Bxc3 0-1
 
 [Event "WYb16"]
 [Site "Heraklio GRE"]
@@ -1854,7 +1854,7 @@
 [SetUp "1"]
 [FEN "r1qb1r1k/1b3ppp/pp1pPn2/4n1B1/N1PNP3/6Q1/PP2B1PP/R4RK1 b - - 0 22"]
 
-22. ... Nxe4 23. e7 Bxe7 24. Bxe7 Nxg3 25. hxg3 0-1
+22... Nxe4 23. e7 Bxe7 24. Bxe7 Nxg3 25. hxg3 0-1
 
 [Event "San Remo"]
 [Site "San Remo ITA"]
@@ -1867,7 +1867,7 @@
 [SetUp "1"]
 [FEN "7r/4bkpp/R3pp2/Br6/1p6/6P1/PP2PP1P/4K2R b K - 0 21"]
 
-21. ... Rc8 22. O-O Rcc5 23. Bxb4 Rxb4 24. Ra7 0-1
+21... Rc8 22. O-O Rcc5 23. Bxb4 Rxb4 24. Ra7 0-1
 
 [Event "Tel Aviv olm fin-A"]
 [Site "Tel Aviv ISR"]
@@ -1910,7 +1910,7 @@
 [SetUp "1"]
 [FEN "r5k1/3qppbp/p5p1/n1B5/P7/2P1PN2/4QPPP/1R4K1 b - - 0 19"]
 
-19. ... Qf5 20. Rb6 Qxc5 21. Rxa6 0-1
+19... Qf5 20. Rb6 Qxc5 21. Rxa6 0-1
 
 [Event "NLD Ch"]
 [Site "NLD"]
@@ -1925,4 +1925,4 @@
 [SetUp "1"]
 [FEN "3r2rk/p3b2p/P2q1pb1/1p6/1B2BR2/3PP3/7P/R2Q3K b - - 0 29"]
 
-29. ... Qxf4 30. exf4 Bxe4+ 31. dxe4 Rxd1+ 32. Rxd1 Bxb4 33. Rd5 0-1
+29... Qxf4 30. exf4 Bxe4+ 31. dxe4 Rxd1+ 32. Rxd1 Bxb4 33. Rd5 0-1
