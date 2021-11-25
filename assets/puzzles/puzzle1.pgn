@@ -1,0 +1,14 @@
+[Event "World Blitz"]
+[Site "Moscow RUS"]
+[Date "2009.11.16"]
+[Round "5"]
+[White "Morozevich, Alexander"]
+[Black "Naiditsch, Arkadij"]
+[Result "1-0"]
+[WhiteElo "2750"]
+[BlackElo "2689"]
+[ECO "A00"]
+[SetUp "1"]
+[FEN "4rrk1/Q4ppp/2p5/8/3p1q2/3P1N2/PP2PP1n/4RRK1 w - - 0 24"]
+
+24. Nxh2 Re6 25. e3 Qg5+ 26. Kh1 dxe3 1-0

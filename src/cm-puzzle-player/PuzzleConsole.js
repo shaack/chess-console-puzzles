@@ -7,6 +7,7 @@ import {Component} from "../../lib/cm-web-modules/app/Component.js"
 import {PgnUrlLoader} from "./loaders/PgnUrlLoader.js"
 import {Observe} from "../../lib/cm-web-modules/observe/Observe.js"
 import {Puzzle} from "./Puzzle.js"
+import {Chessboard} from "../../lib/cm-chessboard/Chessboard.js"
 
 export class PuzzleConsole extends Component {
 
@@ -21,14 +22,21 @@ export class PuzzleConsole extends Component {
         })
         Observe.property(this.state, "puzzle", () => {
             console.log("puzzle changed", this.state.puzzle)
+            this.redraw()
         })
+    }
+
+    redraw() {
+        this.chessboard = new Chessboard(this.context)
     }
 
     /**
      * Show a chess puzzle
      */
     loadPuzzle(id = undefined) {
-        this.state.puzzle = this.props.loader.load(id)
+        this.props.loader.load(id).then((puzzle) => {
+            this.state.puzzle = puzzle
+        })
     }
 
 }
