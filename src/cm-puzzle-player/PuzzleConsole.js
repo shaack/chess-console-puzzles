@@ -8,17 +8,19 @@ import {PgnUrlPuzzleDao} from "./dao/PgnUrlPuzzleDao.js"
 import {Observe} from "../../lib/cm-web-modules/observe/Observe.js"
 import {Puzzle} from "./Puzzle.js"
 import {Chessboard} from "../../lib/cm-chessboard/Chessboard.js"
+import {Chess} from "../../lib/cm-chess/Chess.js"
 
 export class PuzzleConsole extends Component {
 
     constructor(context, props) {
         // defaults
         props = Object.assign({
-            mismoveFirstInPgn: false, // true for lichess type
+            misMoveFirstInPgn: false, // true for lichess type
             dao: new PgnUrlPuzzleDao({url: "./assets/puzzles/puzzles_Oli1970.pgn"})
         }, props)
         super(context, props, {
-            puzzle: new Puzzle()
+            puzzle: new Puzzle(),
+            chess: new Chess()
         })
         this.elements = {
             chessboardContainer: context.querySelector(".chessboard-container"),
