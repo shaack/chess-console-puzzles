@@ -4,14 +4,16 @@
  */
 
 import {Chess} from "../../lib/cm-chess/Chess.js";
+import {Component} from "../../lib/cm-web-modules/app/Component.js";
+import {PuzzlePlayerState} from "./PuzzlePlayerState.js";
 
-export class PuzzlePlayer {
+export class PuzzlePlayer extends Component {
+
     constructor(context, props) {
-        this.props = {
+        props = Object.assign({
             mismoveFirstInPgn: false // true for lichess type
-        }
-        Object.assign(this.props, props)
-        this.chess = new Chess()
+        }, props)
+        super(context, props, new PuzzlePlayerState())
     }
 
     /**
@@ -20,6 +22,6 @@ export class PuzzlePlayer {
      * @param index The index of the puzzle in the pgn, if it contains more than one
      */
     loadPuzzle(pgn, index = 0) {
-
+        this.state.loadPuzzle(pgn, index)
     }
 }
