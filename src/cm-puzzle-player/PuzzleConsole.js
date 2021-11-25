@@ -20,6 +20,10 @@ export class PuzzleConsole extends Component {
         super(context, props, {
             puzzle: new Puzzle()
         })
+        this.elements = {
+            chessboardContainer: context.querySelector(".chessboard-container"),
+            controlsContainer: context.querySelector(".controls-container")
+        }
         Observe.property(this.state, "puzzle", () => {
             // console.log("puzzle changed", this.state.puzzle)
             this.redraw()
@@ -27,7 +31,7 @@ export class PuzzleConsole extends Component {
     }
 
     redraw() {
-        this.chessboard = new Chessboard(this.context, {
+        this.chessboard = new Chessboard(this.elements.chessboardContainer, {
             position: this.state.puzzle.chess.fen()
         })
     }

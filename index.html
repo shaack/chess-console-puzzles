@@ -12,7 +12,23 @@
 </head>
 <body>
 <div class="container-fluid">
-    <div id="puzzle-player-context"></div>
+    <h1>cm-puzzle-console</h1>
+    <div class="row" id="puzzle-player-context">
+        <div class="col-md-8">
+            <div class="chessboard-container"></div>
+        </div>
+        <div class="col-md-4">
+            <div class="controls-container">
+                <div class="flex-buttons">
+                    <button class="btn btn-primary"></button>
+                    <button class="btn btn-primary">1</button>
+                    <button class="btn btn-primary">2</button>
+                    <button class="btn btn-primary">T1</button>
+                    <button class="btn btn-primary">asdasd</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossOrigin="anonymous"></script>
@@ -20,7 +36,8 @@
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossOrigin="anonymous"></script>
 <script type="module">
-    import {PuzzleConsole} from "./src/cm-puzzle-player/PuzzleConsole.js";
+    import {PuzzleConsole} from "./src/cm-puzzle-player/PuzzleConsole.js"
+
     const puzzleConsole = new PuzzleConsole(document.getElementById("puzzle-player-context"),
         {
             mismoveFirstInPgn: true // lichess type

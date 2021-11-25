@@ -1,6 +1,21 @@
 @import "cm-chessboard.scss";
 
+$spacer: 1rem;
+
 body {
   color: #eee;
   background-color: #333;
+}
+
+.flex-buttons {
+  display: flex;
+  flex-wrap: wrap;
+
+  button {
+    min-width: 2.5rem;
+    margin-right: $spacer / 2;
+    margin-bottom: $spacer / 2;
+  }
+
+  margin-bottom: $spacer / 2;
 }

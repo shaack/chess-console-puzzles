@@ -228,4 +228,13 @@ body {
   color: #eee;
   background-color: #333; }
 
+.flex-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem; }
+  .flex-buttons button {
+    min-width: 2.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem; }
+
 /*# sourceMappingURL=cm-puzzle-player.css.map */
