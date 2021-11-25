@@ -32,8 +32,12 @@ export class PuzzleConsole extends Component {
 
     redraw() {
         this.chessboard = new Chessboard(this.elements.chessboardContainer, {
-            position: this.state.puzzle.chess.fen()
+            position: this.state.puzzle.chess.setUpFen()
         })
+        this.chessboard.enableMoveInput((event) => {
+            console.log(event)
+            return true
+        }, this.state.puzzle.chess.turn())
     }
 
     /**

@@ -18,7 +18,7 @@
 <div class="container-fluid">
     <h1>cm-puzzle-console</h1>
     <div class="row" id="puzzle-player-context">
-        <div class="col-md-8">
+        <div class="col-md-8 mb-3">
             <div class="chessboard-container"></div>
         </div>
         <div class="col-md-4">
@@ -44,7 +44,7 @@
 
     const puzzleConsole = new PuzzleConsole(document.getElementById("puzzle-player-context"),
         {
-            mismoveFirstInPgn: true // lichess type
+            misMoveFirstInPgn: false // lichess type
         })
     puzzleConsole.loadPuzzle(0)
 </script>
