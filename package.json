@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/shaack/chess-console-puzzles#readme",
   "dependencies": {
+    "chess-console": "^4.8.7",
+    "chess-console-stockfish": "^1.10.3",
     "cm-chess": "^2.1.6",
     "cm-chessboard": "^3.16.3",
     "cm-pgn": "^2.1.7",
