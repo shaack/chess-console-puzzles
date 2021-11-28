@@ -1,14 +1,14 @@
 /**
  * Author and copyright: Stefan Haack (https://shaack.com)
- * Repository: https://github.com/shaack/cm-puzzle-console
+ * Repository: https://github.com/shaack/chess-console-puzzles
  * License: MIT, see file 'LICENSE'
  */
-import {Component} from "../../lib/cm-web-modules/app/Component.js"
+import {Component} from "../../../lib/cm-web-modules/app/Component.js"
 import {PgnUrlPuzzleDao} from "../dao/PgnUrlPuzzleDao.js"
-import {Observe} from "../../lib/cm-web-modules/observe/Observe.js"
+import {Observe} from "../../../lib/cm-web-modules/observe/Observe.js"
 import {Puzzle} from "../Puzzle.js"
-import {Chessboard} from "../../lib/cm-chessboard/Chessboard.js"
-import {Chess} from "../../lib/cm-chess/Chess.js"
+import {Chessboard} from "../../../lib/cm-chessboard/Chessboard.js"
+import {Chess} from "../../../lib/cm-chess/Chess.js"
 
 export class PuzzleConsole extends Component {
 
