@@ -1,52 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/styles/cm-puzzle-player.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
-          integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
-          integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-    <title>chess-console-puzzles</title>
+    <title>Chess Console</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="./assets/styles/chess-console-puzzles.css"/>
 </head>
 <body>
 <div class="container-fluid">
-    <h1>chess-console-puzzles</h1>
-    <div class="row" id="puzzle-player-context">
-        <div class="col-md-8 mb-3">
-            <div class="chessboard-container"></div>
-        </div>
-        <div class="col-md-4">
-            <div class="controls-container">
-                <div class="flex-buttons">
-                    <button class="btn btn-primary"></button>
-                    <button class="btn btn-primary">1</button>
-                    <button class="btn btn-primary">2</button>
-                    <button class="btn btn-primary">T1</button>
-                    <button class="btn btn-primary">asdasd</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    <h1><a href="../">chess-console</a>
+        <small>without persistence</small>
+    </h1>
+    <div id="console-container"></div>
 </div>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossOrigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossOrigin="anonymous"></script>
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
 <script type="module">
-    import {PuzzleConsole} from "./src/chess-console-puzzles/deprecated/PuzzleConsole.js"
 
-    const puzzleConsole = new PuzzleConsole(document.getElementById("puzzle-player-context"),
+    import {ChessConsole} from "../src/chess-console/ChessConsole.js"
+    import {LocalPlayer} from "../src/chess-console/players/LocalPlayer.js"
+    import {Board} from "../src/chess-console/components/Board/Board.js"
+    import {GameStateOutput} from "../src/chess-console/components/GameStateOutput.js"
+
+    new ChessConsole(
+        document.getElementById("console-container"),
+        {name: "Local Player 1", type: LocalPlayer},
+        {name: "Local Player 2", type: LocalPlayer},
         {
-            misMoveFirstInPgn: false // lichess type
-        })
-    puzzleConsole.loadPuzzle(0)
+            figuresSpriteFile: "../node_modules/cm-chessboard/assets/images/chessboard-sprite-staunty.svg"
+        }
+    ).initialization.then((chessConsole) => {
+        new Board(chessConsole)
+        new GameStateOutput(chessConsole)
+        chessConsole.initGame()
+    })
+
 </script>
 </body>
 </html>

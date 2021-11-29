@@ -3,11 +3,9 @@
  * Repository: https://github.com/shaack/chess-console-puzzles
  * License: MIT, see file 'LICENSE'
  */
-import {Chess} from "../../lib/cm-chess/Chess.js"
 
-export class Puzzle {
-    constructor(pgn) {
-        this.chess = new Chess()
-        this.chess.loadPgn(pgn)
-    }
+import {ChessConsole} from "../../lib/chess-console/ChessConsole.js"
+
+export class PuzzleConsole extends ChessConsole {
+
 }
