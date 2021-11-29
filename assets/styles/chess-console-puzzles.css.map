@@ -1,8 +1,8 @@
 {
 	"version": 3,
-	"file": "cm-puzzle-player.css",
+	"file": "chess-console-puzzles.css",
 	"sources": [
-		"cm-puzzle-player.scss",
+		"chess-console-puzzles.scss",
 		"cm-chessboard.scss",
 		"_cm-chessboard-theme.scss"
 	],
