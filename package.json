@@ -26,11 +26,11 @@
   "homepage": "https://github.com/shaack/chess-console-puzzles#readme",
   "dependencies": {
     "bootstrap-show-modal": "^1.4.3",
-    "chess-console": "^4.8.7",
-    "chess-console-stockfish": "^1.10.3",
+    "chess-console": "^4.10.0",
+    "chess-console-stockfish": "^1.10.4",
     "cm-chess": "^2.1.6",
     "cm-chessboard": "^3.16.3",
     "cm-pgn": "^2.1.7",
-    "cm-web-modules": "^1.12.1"
+    "cm-web-modules": "^1.13.0"
   }
 }
