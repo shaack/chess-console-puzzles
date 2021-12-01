@@ -3,6 +3,7 @@
  * Repository: https://github.com/shaack/chess-console-puzzles
  * License: MIT, see file 'LICENSE'
  */
+
 import {Component} from "../../../lib/cm-web-modules/app/Component.js"
 import {PgnUrlPuzzleDao} from "../dao/PgnUrlPuzzleDao.js"
 import {Observe} from "../../../lib/cm-web-modules/observe/Observe.js"
