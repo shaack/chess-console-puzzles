@@ -7,5 +7,12 @@
 import {StockfishPlayer} from "../../../lib/chess-console-stockfish/StockfishPlayer.js"
 
 export class PuzzlePlayer extends StockfishPlayer {
-
+    constructor(chessConsole, name) {
+        super(chessConsole, name, {
+            worker: "./ext/stockfish.js",
+            book: undefined,
+            level: 2,
+            debug: true
+        })
+    }
 }
