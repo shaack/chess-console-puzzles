@@ -3,14 +3,14 @@
  * License: MIT, see file 'LICENSE'
  */
 
-const LibraryManager = require("cm-web-modules/src/LibraryManager.js")
-const manager = new LibraryManager(__dirname)
+const ModRator = require("modrator/src/ModRator.js")
+const modrator = new ModRator(__dirname)
 
-manager.addPackage("cm-web-modules")
-manager.addPackage("chess.mjs")
-manager.addPackage("cm-chess")
-manager.addPackage("cm-pgn")
-manager.addPackage("cm-chessboard")
-manager.addPackage("chess-console")
-manager.addPackage("chess-console-stockfish")
-manager.addPackage("bootstrap-show-modal", "src", "bootstrap-show-modal.js")
+modrator.addToLibrary("cm-web-modules")
+modrator.addToLibrary("chess.mjs")
+modrator.addToLibrary("cm-chess")
+modrator.addToLibrary("cm-pgn")
+modrator.addToLibrary("cm-chessboard")
+modrator.addToLibrary("chess-console")
+modrator.addToLibrary("chess-console-stockfish")
+modrator.addToLibrary("bootstrap-show-modal", "src", "bootstrap-show-modal.js")
