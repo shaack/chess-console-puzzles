@@ -6,7 +6,7 @@
 
 import {ChessConsole} from "../../lib/chess-console/ChessConsole.js"
 
-export class PuzzleConsole extends ChessConsole {
+export class ChessConsolePuzzles extends ChessConsole {
 
     constructor(context, player, opponent, props) {
         super(context, player, opponent, props, {

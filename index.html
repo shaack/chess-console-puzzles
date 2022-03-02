@@ -25,13 +25,13 @@
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossOrigin="anonymous"></script>
 <script type="module">
-    import {PuzzleConsole} from "./src/chess-console-puzzles/PuzzleConsole.js"
+    import {ChessConsolePuzzles} from "./src/chess-console-puzzles/ChessConsolePuzzles.js"
     import {PgnUrlPuzzleDao} from "./src/chess-console-puzzles/dao/PgnUrlPuzzleDao.js"
     import {LocalPlayer} from "./lib/chess-console/players/LocalPlayer.js"
     import {PuzzlePlayer} from "./src/chess-console-puzzles/player/PuzzlePlayer.js"
 
     // context, player, opponent, props = {}
-    const puzzleConsole = new PuzzleConsole(
+    const puzzleConsole = new ChessConsolePuzzles(
         document.getElementById("puzzle-player-context"),
         {name: "Player", type: LocalPlayer},
         {name: "Puzzle Engine", type: PuzzlePlayer},
