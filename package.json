@@ -26,12 +26,13 @@
   "homepage": "https://github.com/shaack/chess-console-puzzles#readme",
   "dependencies": {
     "bootstrap-show-modal": "^1.4.3",
-    "chess-console": "^4.12.0",
-    "chess-console-stockfish": "^2.1.5",
-    "cm-chess": "^2.1.6",
-    "cm-chessboard": "^3.16.3",
-    "cm-pgn": "^2.1.7",
-    "cm-web-modules": "^1.15.0",
+    "chess-console": "^4.12.3",
+    "chess-console-stockfish": "^2.2.0",
+    "cm-chess": "^2.1.8",
+    "cm-chessboard": "^3.16.8",
+    "cm-engine-runner": "^1.1.0",
+    "cm-pgn": "^2.1.8",
+    "cm-web-modules": "^1.16.0",
     "modrator": "^1.2.1"
   }
 }
